@@ -1,0 +1,4 @@
+module Stripe3DS2 {
+umbrella header "/Users/jjsingh/Library/Developer/Xcode/DerivedData/QROWD(UPDATEDSTART)-crtdayzxcdczmneasdfrjoepnxzf/SourcePackages/checkouts/stripe-ios/Stripe3DS2/Stripe3DS2/include/Stripe3DS2.h"
+export *
+}

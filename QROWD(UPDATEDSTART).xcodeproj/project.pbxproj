@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7932D0412E1842E400108915 /* QROWDAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D0402E1842E400108915 /* QROWDAnimations.swift */; };
+		7932D0432E1842EA00108915 /* AnimationShowcaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D0422E1842EA00108915 /* AnimationShowcaseView.swift */; };
+		7932D0452E184BEA00108915 /* HostRegistrationWizardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D0442E184BEA00108915 /* HostRegistrationWizardView.swift */; };
+		7932D04B2E1B336A00108915 /* DeveloperTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D0462E1B336A00108915 /* DeveloperTools.swift */; };
+		7932D04C2E1B336A00108915 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D0472E1B336A00108915 /* ImageCacheManager.swift */; };
+		7932D04D2E1B336A00108915 /* ENHANCEMENTS_SUMMARY.md in Resources */ = {isa = PBXBuildFile; fileRef = 7932D0482E1B336A00108915 /* ENHANCEMENTS_SUMMARY.md */; };
+		7932D04E2E1B336A00108915 /* AccessibilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D0492E1B336A00108915 /* AccessibilityManager.swift */; };
+		7932D04F2E1B336A00108915 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D04A2E1B336A00108915 /* ErrorManager.swift */; };
+		7932D0512E1B368D00108915 /* QROWDLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D0502E1B368D00108915 /* QROWDLogo.swift */; };
+		7932D0D22E1F47F700108915 /* CancellationPolicyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D0D02E1F47F700108915 /* CancellationPolicyManager.swift */; };
+		7932D0D32E1F47F700108915 /* MarketplaceFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D0D12E1F47F700108915 /* MarketplaceFeatures.swift */; };
+		7932D0D52E1F484C00108915 /* DJDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D0D42E1F484C00108915 /* DJDashboardView.swift */; };
+		7932D0D72E1F485700108915 /* DJBookingRequestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D0D62E1F485700108915 /* DJBookingRequestsView.swift */; };
+		7932D0DB2E1F488400108915 /* BookingRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D0D82E1F488400108915 /* BookingRequestView.swift */; };
+		7932D0DC2E1F488400108915 /* CancellationPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D0D92E1F488400108915 /* CancellationPolicyView.swift */; };
+		7932D0DD2E1F488400108915 /* RealTimeTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D0DA2E1F488400108915 /* RealTimeTrackingView.swift */; };
+		7932D0E02E1F488C00108915 /* InstantBookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D0DE2E1F488C00108915 /* InstantBookingView.swift */; };
+		7932D0E12E1F488C00108915 /* BookingRequestStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932D0DF2E1F488C00108915 /* BookingRequestStatusView.swift */; };
+		7932D0E42E1F4F1B00108915 /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = 7932D0E32E1F4F1B00108915 /* Inject */; };
 		795AE4542E07079100FF428B /* QROWD_UPDATEDSTART_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4532E07079100FF428B /* QROWD_UPDATEDSTART_App.swift */; };
 		795AE4562E07079100FF428B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4552E07079100FF428B /* ContentView.swift */; };
 		795AE4582E07079100FF428B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4572E07079100FF428B /* Item.swift */; };
@@ -15,6 +34,55 @@
 		795AE4672E07079300FF428B /* QROWD_UPDATEDSTART_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4662E07079300FF428B /* QROWD_UPDATEDSTART_Tests.swift */; };
 		795AE4712E07079300FF428B /* QROWD_UPDATEDSTART_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4702E07079300FF428B /* QROWD_UPDATEDSTART_UITests.swift */; };
 		795AE4732E07079300FF428B /* QROWD_UPDATEDSTART_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4722E07079300FF428B /* QROWD_UPDATEDSTART_UITestsLaunchTests.swift */; };
+		795AE4812E070AB000FF428B /* SupabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE47F2E070AB000FF428B /* SupabaseManager.swift */; };
+		795AE4822E070AB000FF428B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4802E070AB000FF428B /* Theme.swift */; };
+		795AE4952E070AB800FF428B /* DJAvailabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4832E070AB800FF428B /* DJAvailabilityView.swift */; };
+		795AE4962E070AB800FF428B /* DJBasicInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4842E070AB800FF428B /* DJBasicInfoView.swift */; };
+		795AE4972E070AB800FF428B /* DJBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4852E070AB800FF428B /* DJBudgetView.swift */; };
+		795AE4982E070AB800FF428B /* DJEquipmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4862E070AB800FF428B /* DJEquipmentView.swift */; };
+		795AE4992E070AB800FF428B /* DJGenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4872E070AB800FF428B /* DJGenreView.swift */; };
+		795AE49A2E070AB800FF428B /* DJPromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4882E070AB800FF428B /* DJPromoView.swift */; };
+		795AE49B2E070AB800FF428B /* DJSocialLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4892E070AB800FF428B /* DJSocialLinksView.swift */; };
+		795AE49C2E070AB800FF428B /* DJStripeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE48A2E070AB800FF428B /* DJStripeView.swift */; };
+		795AE49D2E070AB800FF428B /* DJRegistrationWizardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE48C2E070AB800FF428B /* DJRegistrationWizardView.swift */; };
+		795AE49E2E070AB800FF428B /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE48E2E070AB800FF428B /* AuthView.swift */; };
+		795AE49F2E070AB800FF428B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE48F2E070AB800FF428B /* SplashView.swift */; };
+		795AE4A02E070AB800FF428B /* UserTypeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4902E070AB800FF428B /* UserTypeSelectionView.swift */; };
+		795AE4A12E070AB800FF428B /* DJRegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4932E070AB800FF428B /* DJRegistrationViewModel.swift */; };
+		795AE4A42E070AE800FF428B /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 795AE4A32E070AE800FF428B /* Supabase */; };
+		795AE4A62E070BE800FF428B /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 795AE4A52E070BE800FF428B /* Auth */; };
+		795AE4A82E070BE800FF428B /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 795AE4A72E070BE800FF428B /* PostgREST */; };
+		795AE4AA2E070BE800FF428B /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 795AE4A92E070BE800FF428B /* Storage */; };
+		795AE4AC2E0716D000FF428B /* DATABASE_SCHEMA.md in Resources */ = {isa = PBXBuildFile; fileRef = 795AE4AB2E0716D000FF428B /* DATABASE_SCHEMA.md */; };
+		795AE4AF2E0716F000FF428B /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4AD2E0716F000FF428B /* ChatView.swift */; };
+		795AE4BE2E07171E00FF428B /* BookingRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4B92E07171E00FF428B /* BookingRequestView.swift */; };
+		795AE4BF2E07171E00FF428B /* DJProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4BA2E07171E00FF428B /* DJProfileView.swift */; };
+		795AE4C02E07171E00FF428B /* HostFiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4BB2E07171E00FF428B /* HostFiltersView.swift */; };
+		795AE4C12E07171E00FF428B /* HostSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AE4BC2E07171E00FF428B /* HostSearchView.swift */; };
+		796AAFA72E08893D00C1A24A /* DJProfileTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796AAFA62E08893D00C1A24A /* DJProfileTabView.swift */; };
+		796AAFA92E0A240A00C1A24A /* host_guest_database_schema.sql in Resources */ = {isa = PBXBuildFile; fileRef = 796AAFA82E0A240A00C1A24A /* host_guest_database_schema.sql */; };
+		796AAFAC2E0A242C00C1A24A /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796AAFAA2E0A242C00C1A24A /* UserModels.swift */; };
+		796AAFAF2E0A244B00C1A24A /* GuestRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796AAFAD2E0A244B00C1A24A /* GuestRegistrationView.swift */; };
+		796AAFB22E0A246500C1A24A /* GuestRegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796AAFB02E0A246500C1A24A /* GuestRegistrationViewModel.swift */; };
+		796AAFB32E0A246500C1A24A /* HostRegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796AAFB12E0A246500C1A24A /* HostRegistrationViewModel.swift */; };
+		79C2C4C32E0737AA00C6BBBC /* AILaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2C4BF2E0737AA00C6BBBC /* AILaunchView.swift */; };
+		79C2C4C42E0737AA00C6BBBC /* QROWDAIAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2C4C02E0737AA00C6BBBC /* QROWDAIAssistantView.swift */; };
+		79C2C4C92E0737BD00C6BBBC /* QROWDAIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2C4C62E0737BD00C6BBBC /* QROWDAIManager.swift */; };
+		79C2C4CC2E07405E00C6BBBC /* StripeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2C4CA2E07405E00C6BBBC /* StripeConfig.swift */; };
+		79C2C4CE2E07407900C6BBBC /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2C4CD2E07407900C6BBBC /* NotificationManager.swift */; };
+		79C2C4D02E07408100C6BBBC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 79C2C4CF2E07408100C6BBBC /* Podfile */; };
+		79C2C4D32E07408A00C6BBBC /* StripeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2C4D12E07408A00C6BBBC /* StripeManager.swift */; };
+		79C2C4D42E07408A00C6BBBC /* setup_database.sql in Resources */ = {isa = PBXBuildFile; fileRef = 79C2C4D22E07408A00C6BBBC /* setup_database.sql */; };
+		79C2C4D72E07409E00C6BBBC /* HostSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2C4D52E07409E00C6BBBC /* HostSearchViewModel.swift */; };
+		79C2C4D82E07409E00C6BBBC /* TrendingEventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2C4D62E07409E00C6BBBC /* TrendingEventsViewModel.swift */; };
+		79C2C4DB2E0740B300C6BBBC /* QROWDComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2C4D92E0740B300C6BBBC /* QROWDComponents.swift */; };
+		79C2C4DD2E0740C700C6BBBC /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2C4DC2E0740C700C6BBBC /* EventDetailView.swift */; };
+		79C2C4E02E07415E00C6BBBC /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = 79C2C4DF2E07415E00C6BBBC /* Stripe */; };
+		79C2C4E22E07415E00C6BBBC /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 79C2C4E12E07415E00C6BBBC /* StripePaymentSheet */; };
+		79C2C4E62E075CBB00C6BBBC /* DJPROViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2C4E52E075CBA00C6BBBC /* DJPROViewModel.swift */; };
+		79C2C4EA2E075CE200C6BBBC /* DJPROUpgradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2C4E92E075CDF00C6BBBC /* DJPROUpgradeView.swift */; };
+		79C2C4EC2E075CE900C6BBBC /* DJSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2C4EB2E075CE900C6BBBC /* DJSettingsView.swift */; };
+		79C2C4F02E0767E600C6BBBC /* complete_database_setup.sql in Resources */ = {isa = PBXBuildFile; fileRef = 79C2C4EF2E0767E600C6BBBC /* complete_database_setup.sql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +103,142 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7932D0402E1842E400108915 /* QROWDAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QROWDAnimations.swift; sourceTree = "<group>"; };
+		7932D0422E1842EA00108915 /* AnimationShowcaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationShowcaseView.swift; sourceTree = "<group>"; };
+		7932D0442E184BEA00108915 /* HostRegistrationWizardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostRegistrationWizardView.swift; sourceTree = "<group>"; };
+		7932D0462E1B336A00108915 /* DeveloperTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeveloperTools.swift; sourceTree = "<group>"; };
+		7932D0472E1B336A00108915 /* ImageCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		7932D0482E1B336A00108915 /* ENHANCEMENTS_SUMMARY.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ENHANCEMENTS_SUMMARY.md; sourceTree = "<group>"; };
+		7932D0492E1B336A00108915 /* AccessibilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityManager.swift; sourceTree = "<group>"; };
+		7932D04A2E1B336A00108915 /* ErrorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		7932D0502E1B368D00108915 /* QROWDLogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QROWDLogo.swift; sourceTree = "<group>"; };
+		7932D0532E1B3B7F00108915 /* QROWD(UPDATEDSTART).app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = "QROWD(UPDATEDSTART).app"; sourceTree = "<group>"; };
+		7932D0572E1B3B7F00108915 /* 0ac80628ae82faf35e4425f063d14866 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0ac80628ae82faf35e4425f063d14866; sourceTree = "<group>"; };
+		7932D0582E1B3B7F00108915 /* 0afc42768a4a69e9c3803484cba26250 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0afc42768a4a69e9c3803484cba26250; sourceTree = "<group>"; };
+		7932D0592E1B3B7F00108915 /* 0d03ec81bce487bffee4533877f3c517 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0d03ec81bce487bffee4533877f3c517; sourceTree = "<group>"; };
+		7932D05A2E1B3B7F00108915 /* 0eb479c2bbc9e52f666ad3252d0ccb9d */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0eb479c2bbc9e52f666ad3252d0ccb9d; sourceTree = "<group>"; };
+		7932D05B2E1B3B7F00108915 /* 1b7ac61b8ecc62c8e69b213f182eca6b */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1b7ac61b8ecc62c8e69b213f182eca6b; sourceTree = "<group>"; };
+		7932D05C2E1B3B7F00108915 /* 1dc46337f8ca3008414e569b7a75e40c */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1dc46337f8ca3008414e569b7a75e40c; sourceTree = "<group>"; };
+		7932D05D2E1B3B7F00108915 /* 2de6a04cdba79ed13580c47dfd70cc5f */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = 2de6a04cdba79ed13580c47dfd70cc5f; sourceTree = "<group>"; };
+		7932D05E2E1B3B7F00108915 /* 2e7fb41e96de3a0e3b37dc29dfb9a161 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2e7fb41e96de3a0e3b37dc29dfb9a161; sourceTree = "<group>"; };
+		7932D05F2E1B3B7F00108915 /* 3a63f7caeebd9edb52cc4dab05752b88 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 3a63f7caeebd9edb52cc4dab05752b88; sourceTree = "<group>"; };
+		7932D0602E1B3B7F00108915 /* 3ac2cb41bb43191b67530059179b896f */ = {isa = PBXFileReference; lastKnownFileType = text; path = 3ac2cb41bb43191b67530059179b896f; sourceTree = "<group>"; };
+		7932D0612E1B3B7F00108915 /* 3ccbff72b76019b7d6e4352c132468ab */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3ccbff72b76019b7d6e4352c132468ab; sourceTree = "<group>"; };
+		7932D0622E1B3B7F00108915 /* 3cd47ad1f09be2182afa50c258ed861a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3cd47ad1f09be2182afa50c258ed861a; sourceTree = "<group>"; };
+		7932D0632E1B3B7F00108915 /* 3ddb873d7a7a04caeda2793795f4c81e */ = {isa = PBXFileReference; lastKnownFileType = text; path = 3ddb873d7a7a04caeda2793795f4c81e; sourceTree = "<group>"; };
+		7932D0642E1B3B7F00108915 /* 3f5df14731367c4089a549a4ec48cb91 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 3f5df14731367c4089a549a4ec48cb91; sourceTree = "<group>"; };
+		7932D0652E1B3B7F00108915 /* 4b80decef914c3aaadea13ed20003e29 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4b80decef914c3aaadea13ed20003e29; sourceTree = "<group>"; };
+		7932D0662E1B3B7F00108915 /* 4bed9ffbffe67f583d893e41c206bc1a */ = {isa = PBXFileReference; lastKnownFileType = text; path = 4bed9ffbffe67f583d893e41c206bc1a; sourceTree = "<group>"; };
+		7932D0672E1B3B7F00108915 /* 4d02497f71333dde9e9a84e6c4c9b1f1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 4d02497f71333dde9e9a84e6c4c9b1f1; sourceTree = "<group>"; };
+		7932D0682E1B3B7F00108915 /* 4f23d31f7867e28f58a63f28b2c4a320 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 4f23d31f7867e28f58a63f28b2c4a320; sourceTree = "<group>"; };
+		7932D0692E1B3B7F00108915 /* 5aaffced931c24eacccc0d440f2610f0 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 5aaffced931c24eacccc0d440f2610f0; sourceTree = "<group>"; };
+		7932D06A2E1B3B7F00108915 /* 6db4376d3c0f94233b58e7d695d05836 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 6db4376d3c0f94233b58e7d695d05836; sourceTree = "<group>"; };
+		7932D06B2E1B3B7F00108915 /* 6dea0b2aa219d317733030151f7f41f5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 6dea0b2aa219d317733030151f7f41f5; sourceTree = "<group>"; };
+		7932D06C2E1B3B7F00108915 /* 7b391e160a3138d2fa1d55ade7900350 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 7b391e160a3138d2fa1d55ade7900350; sourceTree = "<group>"; };
+		7932D06D2E1B3B7F00108915 /* 7d995b37daed2bbc566e57c18f6b5b88 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 7d995b37daed2bbc566e57c18f6b5b88; sourceTree = "<group>"; };
+		7932D06E2E1B3B7F00108915 /* 7dfe21be5cc1e74ce57009d1c56e2f42 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 7dfe21be5cc1e74ce57009d1c56e2f42; sourceTree = "<group>"; };
+		7932D06F2E1B3B7F00108915 /* 8bba4233626f64a7ea772bb94a08a1a9 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 8bba4233626f64a7ea772bb94a08a1a9; sourceTree = "<group>"; };
+		7932D0702E1B3B7F00108915 /* 8e2e85ae4dd18d99b8098967caa5c5b4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 8e2e85ae4dd18d99b8098967caa5c5b4; sourceTree = "<group>"; };
+		7932D0712E1B3B7F00108915 /* 8ed5721d9fbe577d58f6856c0b424442 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 8ed5721d9fbe577d58f6856c0b424442; sourceTree = "<group>"; };
+		7932D0722E1B3B7F00108915 /* 8ee5787020c2cb1e53de3485a679f0c3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 8ee5787020c2cb1e53de3485a679f0c3; sourceTree = "<group>"; };
+		7932D0732E1B3B7F00108915 /* 8f70bc714e86129857c120eed556404f */ = {isa = PBXFileReference; lastKnownFileType = text; path = 8f70bc714e86129857c120eed556404f; sourceTree = "<group>"; };
+		7932D0742E1B3B7F00108915 /* 9b5e04bcace9bae9c8cd95ec4a17bdae */ = {isa = PBXFileReference; lastKnownFileType = text; path = 9b5e04bcace9bae9c8cd95ec4a17bdae; sourceTree = "<group>"; };
+		7932D0752E1B3B7F00108915 /* 027d24acd48e4331ca6ea768f9466a9d */ = {isa = PBXFileReference; lastKnownFileType = text; path = 027d24acd48e4331ca6ea768f9466a9d; sourceTree = "<group>"; };
+		7932D0762E1B3B7F00108915 /* 28fadf82088ab8742feddabce42b7761 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 28fadf82088ab8742feddabce42b7761; sourceTree = "<group>"; };
+		7932D0772E1B3B7F00108915 /* 37abdd8c6226ba837c228479894dfa29 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 37abdd8c6226ba837c228479894dfa29; sourceTree = "<group>"; };
+		7932D0782E1B3B7F00108915 /* 045dd98611a677c065e61f9692d8bc26 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 045dd98611a677c065e61f9692d8bc26; sourceTree = "<group>"; };
+		7932D0792E1B3B7F00108915 /* 50e44e2eaf465690fb93733ba79b8a63 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 50e44e2eaf465690fb93733ba79b8a63; sourceTree = "<group>"; };
+		7932D07A2E1B3B7F00108915 /* 51a1a89ffcb8e1a360afed851b6c84e5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 51a1a89ffcb8e1a360afed851b6c84e5; sourceTree = "<group>"; };
+		7932D07B2E1B3B7F00108915 /* 60b79363c610c51ae27567c418df379e */ = {isa = PBXFileReference; lastKnownFileType = text; path = 60b79363c610c51ae27567c418df379e; sourceTree = "<group>"; };
+		7932D07C2E1B3B7F00108915 /* 64afe3d070e153f9f5dbeb744dae7168 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 64afe3d070e153f9f5dbeb744dae7168; sourceTree = "<group>"; };
+		7932D07D2E1B3B7F00108915 /* 66fba8398faeb5bafeabed94df2b1141 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 66fba8398faeb5bafeabed94df2b1141; sourceTree = "<group>"; };
+		7932D07E2E1B3B7F00108915 /* 71e4b46db7f00b70c15b30e264fae2af */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = 71e4b46db7f00b70c15b30e264fae2af; sourceTree = "<group>"; };
+		7932D07F2E1B3B7F00108915 /* 78eded39ec1c3a459e43e37a9e0f40d1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 78eded39ec1c3a459e43e37a9e0f40d1; sourceTree = "<group>"; };
+		7932D0802E1B3B7F00108915 /* 83a36fdfbaee1fbd0480cd696cda36b7 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 83a36fdfbaee1fbd0480cd696cda36b7; sourceTree = "<group>"; };
+		7932D0812E1B3B7F00108915 /* 83c4bd95b7006bf3bafc4172764bcfd8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 83c4bd95b7006bf3bafc4172764bcfd8; sourceTree = "<group>"; };
+		7932D0822E1B3B7F00108915 /* 84a86389cc37653a5e746c26afb8edb4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 84a86389cc37653a5e746c26afb8edb4; sourceTree = "<group>"; };
+		7932D0832E1B3B7F00108915 /* 86a41305427b847441e9926cf4d3af3b */ = {isa = PBXFileReference; lastKnownFileType = text; path = 86a41305427b847441e9926cf4d3af3b; sourceTree = "<group>"; };
+		7932D0842E1B3B7F00108915 /* 92b72f6221188446acd15b89fafee192 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 92b72f6221188446acd15b89fafee192; sourceTree = "<group>"; };
+		7932D0852E1B3B7F00108915 /* 97cf46795be30e57b385da0cbc6e0a09 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 97cf46795be30e57b385da0cbc6e0a09; sourceTree = "<group>"; };
+		7932D0862E1B3B7F00108915 /* 00115ed4ef937fc458fa013081ca2231 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 00115ed4ef937fc458fa013081ca2231; sourceTree = "<group>"; };
+		7932D0872E1B3B7F00108915 /* 205e344368d8eecd276dc5c4abd1dc9f */ = {isa = PBXFileReference; lastKnownFileType = text; path = 205e344368d8eecd276dc5c4abd1dc9f; sourceTree = "<group>"; };
+		7932D0882E1B3B7F00108915 /* 398cf15d886aef41e5e168262f04931e */ = {isa = PBXFileReference; lastKnownFileType = text; path = 398cf15d886aef41e5e168262f04931e; sourceTree = "<group>"; };
+		7932D0892E1B3B7F00108915 /* 510cde033edcff415bd03cd531ad8cd2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 510cde033edcff415bd03cd531ad8cd2; sourceTree = "<group>"; };
+		7932D08A2E1B3B7F00108915 /* 890f768f7363a2e5899c5672390cfc96 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 890f768f7363a2e5899c5672390cfc96; sourceTree = "<group>"; };
+		7932D08B2E1B3B7F00108915 /* 966e778f2e78c7e5acb20e69f1c73f86 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 966e778f2e78c7e5acb20e69f1c73f86; sourceTree = "<group>"; };
+		7932D08C2E1B3B7F00108915 /* 1724dee435109d3138f9adcf2af98d7e */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1724dee435109d3138f9adcf2af98d7e; sourceTree = "<group>"; };
+		7932D08D2E1B3B7F00108915 /* 1854d049f20482597149e37bcd068f26 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1854d049f20482597149e37bcd068f26; sourceTree = "<group>"; };
+		7932D08E2E1B3B7F00108915 /* 3641e08c7d2fe2b14b75a7279f03c649 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 3641e08c7d2fe2b14b75a7279f03c649; sourceTree = "<group>"; };
+		7932D08F2E1B3B7F00108915 /* 21229c34958f3b4e9692166d0bd710b9 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 21229c34958f3b4e9692166d0bd710b9; sourceTree = "<group>"; };
+		7932D0902E1B3B7F00108915 /* 29285a53542e1de58759e78842a7255e */ = {isa = PBXFileReference; lastKnownFileType = text; path = 29285a53542e1de58759e78842a7255e; sourceTree = "<group>"; };
+		7932D0912E1B3B7F00108915 /* 58387aacf672e8714c807d912f3aa8aa */ = {isa = PBXFileReference; lastKnownFileType = text; path = 58387aacf672e8714c807d912f3aa8aa; sourceTree = "<group>"; };
+		7932D0922E1B3B7F00108915 /* 777407cc36ac898304550f65a1381106 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 777407cc36ac898304550f65a1381106; sourceTree = "<group>"; };
+		7932D0932E1B3B7F00108915 /* 9003272c28adbfa2fcc60b8b9183c6d0 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 9003272c28adbfa2fcc60b8b9183c6d0; sourceTree = "<group>"; };
+		7932D0942E1B3B7F00108915 /* 82188266f280d82421911b05ff9c45ee */ = {isa = PBXFileReference; lastKnownFileType = text; path = 82188266f280d82421911b05ff9c45ee; sourceTree = "<group>"; };
+		7932D0952E1B3B7F00108915 /* a0c88492e0bda39e20bf3e9479218acf */ = {isa = PBXFileReference; lastKnownFileType = text; path = a0c88492e0bda39e20bf3e9479218acf; sourceTree = "<group>"; };
+		7932D0962E1B3B7F00108915 /* a8c0cadda6fc3174cf100a4fa3de2541 */ = {isa = PBXFileReference; lastKnownFileType = text; path = a8c0cadda6fc3174cf100a4fa3de2541; sourceTree = "<group>"; };
+		7932D0972E1B3B7F00108915 /* a3868d2e6709a02b4c1b13e721d0622a */ = {isa = PBXFileReference; lastKnownFileType = text; path = a3868d2e6709a02b4c1b13e721d0622a; sourceTree = "<group>"; };
+		7932D0982E1B3B7F00108915 /* a030418b35c649d02a26e36526157377 */ = {isa = PBXFileReference; lastKnownFileType = text; path = a030418b35c649d02a26e36526157377; sourceTree = "<group>"; };
+		7932D0992E1B3B7F00108915 /* a49252a2f105fe53286e56e68d2dd117 */ = {isa = PBXFileReference; lastKnownFileType = text; path = a49252a2f105fe53286e56e68d2dd117; sourceTree = "<group>"; };
+		7932D09A2E1B3B7F00108915 /* a0759913477d22c1e4270018c22470e5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = a0759913477d22c1e4270018c22470e5; sourceTree = "<group>"; };
+		7932D09B2E1B3B7F00108915 /* abcf845d316c8d554ba5395655e154d9 */ = {isa = PBXFileReference; lastKnownFileType = text; path = abcf845d316c8d554ba5395655e154d9; sourceTree = "<group>"; };
+		7932D09C2E1B3B7F00108915 /* ac8761daf850b72ed6558c560694c04d */ = {isa = PBXFileReference; lastKnownFileType = text; path = ac8761daf850b72ed6558c560694c04d; sourceTree = "<group>"; };
+		7932D09D2E1B3B7F00108915 /* ac941853be552234bdd8a362772e9df4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ac941853be552234bdd8a362772e9df4; sourceTree = "<group>"; };
+		7932D09E2E1B3B7F00108915 /* ad180d6e976e39ac20f2ebace4960a01 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ad180d6e976e39ac20f2ebace4960a01; sourceTree = "<group>"; };
+		7932D09F2E1B3B7F00108915 /* aeee617baf6a416876eceb6a675165d8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = aeee617baf6a416876eceb6a675165d8; sourceTree = "<group>"; };
+		7932D0A02E1B3B7F00108915 /* af3a60f98df00acc35017d5cec2e325d */ = {isa = PBXFileReference; lastKnownFileType = text; path = af3a60f98df00acc35017d5cec2e325d; sourceTree = "<group>"; };
+		7932D0A12E1B3B7F00108915 /* b5ca659924efd00d2b2dcf2a454e6659 */ = {isa = PBXFileReference; lastKnownFileType = text; path = b5ca659924efd00d2b2dcf2a454e6659; sourceTree = "<group>"; };
+		7932D0A22E1B3B7F00108915 /* b29dbd22bcf9d8024211e42442cddc3f */ = {isa = PBXFileReference; lastKnownFileType = text; path = b29dbd22bcf9d8024211e42442cddc3f; sourceTree = "<group>"; };
+		7932D0A32E1B3B7F00108915 /* b534eb1ab5b5697c0f9c54524bfdd91d */ = {isa = PBXFileReference; lastKnownFileType = text; path = b534eb1ab5b5697c0f9c54524bfdd91d; sourceTree = "<group>"; };
+		7932D0A42E1B3B7F00108915 /* b5292af2af4b980e29643866ee7597b9 */ = {isa = PBXFileReference; lastKnownFileType = text; path = b5292af2af4b980e29643866ee7597b9; sourceTree = "<group>"; };
+		7932D0A52E1B3B7F00108915 /* ba0499c23aef0cda2254dc543930c89e */ = {isa = PBXFileReference; lastKnownFileType = text; path = ba0499c23aef0cda2254dc543930c89e; sourceTree = "<group>"; };
+		7932D0A62E1B3B7F00108915 /* bc9ba6192797c36bc5100b6659bcb007 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bc9ba6192797c36bc5100b6659bcb007; sourceTree = "<group>"; };
+		7932D0A72E1B3B7F00108915 /* bec97a3418850e3039ff70516fad44b6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = bec97a3418850e3039ff70516fad44b6; sourceTree = "<group>"; };
+		7932D0A82E1B3B7F00108915 /* c5bc78fb844d62653dddaf2eca8f6bad */ = {isa = PBXFileReference; lastKnownFileType = text; path = c5bc78fb844d62653dddaf2eca8f6bad; sourceTree = "<group>"; };
+		7932D0A92E1B3B7F00108915 /* c7a5f7880ea9211cc7d28f94284c591d */ = {isa = PBXFileReference; lastKnownFileType = text; path = c7a5f7880ea9211cc7d28f94284c591d; sourceTree = "<group>"; };
+		7932D0AA2E1B3B7F00108915 /* c8f211f3fe5fbe65da08d2ba49bc2339 */ = {isa = PBXFileReference; lastKnownFileType = text; path = c8f211f3fe5fbe65da08d2ba49bc2339; sourceTree = "<group>"; };
+		7932D0AB2E1B3B7F00108915 /* c59ee354215ef6480d1c5cf945c6f1e6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = c59ee354215ef6480d1c5cf945c6f1e6; sourceTree = "<group>"; };
+		7932D0AC2E1B3B7F00108915 /* c738feb00c157afc2154e50cedfffe9c */ = {isa = PBXFileReference; lastKnownFileType = text; path = c738feb00c157afc2154e50cedfffe9c; sourceTree = "<group>"; };
+		7932D0AD2E1B3B7F00108915 /* c4396e25c893d8330e53e9da8b51cc24 */ = {isa = PBXFileReference; lastKnownFileType = text; path = c4396e25c893d8330e53e9da8b51cc24; sourceTree = "<group>"; };
+		7932D0AE2E1B3B7F00108915 /* c36521d831dc52ab2a259a6c02fc814a */ = {isa = PBXFileReference; lastKnownFileType = text; path = c36521d831dc52ab2a259a6c02fc814a; sourceTree = "<group>"; };
+		7932D0AF2E1B3B7F00108915 /* cc92138200749b072bcb9e30f2e1fcc4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = cc92138200749b072bcb9e30f2e1fcc4; sourceTree = "<group>"; };
+		7932D0B02E1B3B7F00108915 /* d0aeb4d290b5e87a064d6efeebded0d2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = d0aeb4d290b5e87a064d6efeebded0d2; sourceTree = "<group>"; };
+		7932D0B12E1B3B7F00108915 /* d3d3426191106ae8b3f1fa6b2a14d21d */ = {isa = PBXFileReference; lastKnownFileType = text; path = d3d3426191106ae8b3f1fa6b2a14d21d; sourceTree = "<group>"; };
+		7932D0B22E1B3B7F00108915 /* d7a6725e23a582614a57335a519e0131 */ = {isa = PBXFileReference; lastKnownFileType = file; path = d7a6725e23a582614a57335a519e0131; sourceTree = "<group>"; };
+		7932D0B32E1B3B7F00108915 /* da5227386f306faf40f931260791f50f */ = {isa = PBXFileReference; lastKnownFileType = text; path = da5227386f306faf40f931260791f50f; sourceTree = "<group>"; };
+		7932D0B42E1B3B7F00108915 /* dafb855ff6fc5563082ba8e8015a1a5f */ = {isa = PBXFileReference; lastKnownFileType = file; path = dafb855ff6fc5563082ba8e8015a1a5f; sourceTree = "<group>"; };
+		7932D0B52E1B3B7F00108915 /* de08ea3c71b377fcdc2717e3119af4a5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = de08ea3c71b377fcdc2717e3119af4a5; sourceTree = "<group>"; };
+		7932D0B62E1B3B7F00108915 /* df9f259bd07fdc19e089b1ff5dadf347 */ = {isa = PBXFileReference; lastKnownFileType = text; path = df9f259bd07fdc19e089b1ff5dadf347; sourceTree = "<group>"; };
+		7932D0B72E1B3B7F00108915 /* df18e1eb10c655f6fb6a5ec8dae567f2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = df18e1eb10c655f6fb6a5ec8dae567f2; sourceTree = "<group>"; };
+		7932D0B82E1B3B7F00108915 /* e5be38f2c45388204b6f46ae69237101 */ = {isa = PBXFileReference; lastKnownFileType = text; path = e5be38f2c45388204b6f46ae69237101; sourceTree = "<group>"; };
+		7932D0B92E1B3B7F00108915 /* e496f93f5ddda9329c6bea40a89b2b58 */ = {isa = PBXFileReference; lastKnownFileType = text; path = e496f93f5ddda9329c6bea40a89b2b58; sourceTree = "<group>"; };
+		7932D0BA2E1B3B7F00108915 /* e651e3d23186a4e1e0812016622d5545 */ = {isa = PBXFileReference; lastKnownFileType = text; path = e651e3d23186a4e1e0812016622d5545; sourceTree = "<group>"; };
+		7932D0BB2E1B3B7F00108915 /* e311861765b0803cd756e3044914c249 */ = {isa = PBXFileReference; lastKnownFileType = text; path = e311861765b0803cd756e3044914c249; sourceTree = "<group>"; };
+		7932D0BC2E1B3B7F00108915 /* eaf76bc944eef97d3ebce10c336a0632 */ = {isa = PBXFileReference; lastKnownFileType = text; path = eaf76bc944eef97d3ebce10c336a0632; sourceTree = "<group>"; };
+		7932D0BD2E1B3B7F00108915 /* ebf6b4f197101ec79724f4cd77407ab2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ebf6b4f197101ec79724f4cd77407ab2; sourceTree = "<group>"; };
+		7932D0BE2E1B3B7F00108915 /* ec29630121eec455fa193befaa967637 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ec29630121eec455fa193befaa967637; sourceTree = "<group>"; };
+		7932D0BF2E1B3B7F00108915 /* f4a25d7bc509ea17d99c483f1825912c */ = {isa = PBXFileReference; lastKnownFileType = text; path = f4a25d7bc509ea17d99c483f1825912c; sourceTree = "<group>"; };
+		7932D0C02E1B3B7F00108915 /* f4c9132240d76e2724478c1cf5a29269 */ = {isa = PBXFileReference; lastKnownFileType = text; path = f4c9132240d76e2724478c1cf5a29269; sourceTree = "<group>"; };
+		7932D0C12E1B3B7F00108915 /* f073e839847d94d29f212fca9aa9b93b */ = {isa = PBXFileReference; lastKnownFileType = text; path = f073e839847d94d29f212fca9aa9b93b; sourceTree = "<group>"; };
+		7932D0C22E1B3B7F00108915 /* f76aae702bb160ec0e234ae117595a8c */ = {isa = PBXFileReference; lastKnownFileType = text; path = f76aae702bb160ec0e234ae117595a8c; sourceTree = "<group>"; };
+		7932D0C32E1B3B7F00108915 /* fd8314defc70a8778956f026c0ddfd19 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fd8314defc70a8778956f026c0ddfd19; sourceTree = "<group>"; };
+		7932D0C42E1B3B7F00108915 /* fe520edb5733d3c89c7d0092022c3147 */ = {isa = PBXFileReference; lastKnownFileType = text; path = fe520edb5733d3c89c7d0092022c3147; sourceTree = "<group>"; };
+		7932D0C52E1B3B7F00108915 /* ffde2b8d290c0202ea8c84ef76ee7cdf */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffde2b8d290c0202ea8c84ef76ee7cdf; sourceTree = "<group>"; };
+		7932D0C72E1B3B7F00108915 /* build-request.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "build-request.json"; sourceTree = "<group>"; };
+		7932D0C82E1B3B7F00108915 /* description.msgpack */ = {isa = PBXFileReference; lastKnownFileType = file; path = description.msgpack; sourceTree = "<group>"; };
+		7932D0C92E1B3B7F00108915 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		7932D0CA2E1B3B7F00108915 /* target-graph.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "target-graph.txt"; sourceTree = "<group>"; };
+		7932D0CB2E1B3B7F00108915 /* task-store.msgpack */ = {isa = PBXFileReference; lastKnownFileType = file; path = "task-store.msgpack"; sourceTree = "<group>"; };
+		7932D0CD2E1B3B7F00108915 /* build.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = build.db; sourceTree = "<group>"; };
+		7932D0D02E1F47F700108915 /* CancellationPolicyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancellationPolicyManager.swift; sourceTree = "<group>"; };
+		7932D0D12E1F47F700108915 /* MarketplaceFeatures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketplaceFeatures.swift; sourceTree = "<group>"; };
+		7932D0D42E1F484C00108915 /* DJDashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJDashboardView.swift; sourceTree = "<group>"; };
+		7932D0D62E1F485700108915 /* DJBookingRequestsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJBookingRequestsView.swift; sourceTree = "<group>"; };
+		7932D0D82E1F488400108915 /* BookingRequestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingRequestView.swift; sourceTree = "<group>"; };
+		7932D0D92E1F488400108915 /* CancellationPolicyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancellationPolicyView.swift; sourceTree = "<group>"; };
+		7932D0DA2E1F488400108915 /* RealTimeTrackingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealTimeTrackingView.swift; sourceTree = "<group>"; };
+		7932D0DE2E1F488C00108915 /* InstantBookingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstantBookingView.swift; sourceTree = "<group>"; };
+		7932D0DF2E1F488C00108915 /* BookingRequestStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingRequestStatusView.swift; sourceTree = "<group>"; };
 		795AE4502E07079100FF428B /* QROWD(UPDATEDSTART).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QROWD(UPDATEDSTART).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		795AE4532E07079100FF428B /* QROWD_UPDATEDSTART_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QROWD_UPDATEDSTART_App.swift; sourceTree = "<group>"; };
 		795AE4552E07079100FF428B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +250,49 @@
 		795AE46C2E07079300FF428B /* QROWD(UPDATEDSTART)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QROWD(UPDATEDSTART)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		795AE4702E07079300FF428B /* QROWD_UPDATEDSTART_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QROWD_UPDATEDSTART_UITests.swift; sourceTree = "<group>"; };
 		795AE4722E07079300FF428B /* QROWD_UPDATEDSTART_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QROWD_UPDATEDSTART_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		795AE47F2E070AB000FF428B /* SupabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupabaseManager.swift; sourceTree = "<group>"; };
+		795AE4802E070AB000FF428B /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		795AE4832E070AB800FF428B /* DJAvailabilityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJAvailabilityView.swift; sourceTree = "<group>"; };
+		795AE4842E070AB800FF428B /* DJBasicInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJBasicInfoView.swift; sourceTree = "<group>"; };
+		795AE4852E070AB800FF428B /* DJBudgetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJBudgetView.swift; sourceTree = "<group>"; };
+		795AE4862E070AB800FF428B /* DJEquipmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJEquipmentView.swift; sourceTree = "<group>"; };
+		795AE4872E070AB800FF428B /* DJGenreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJGenreView.swift; sourceTree = "<group>"; };
+		795AE4882E070AB800FF428B /* DJPromoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJPromoView.swift; sourceTree = "<group>"; };
+		795AE4892E070AB800FF428B /* DJSocialLinksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJSocialLinksView.swift; sourceTree = "<group>"; };
+		795AE48A2E070AB800FF428B /* DJStripeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJStripeView.swift; sourceTree = "<group>"; };
+		795AE48C2E070AB800FF428B /* DJRegistrationWizardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJRegistrationWizardView.swift; sourceTree = "<group>"; };
+		795AE48E2E070AB800FF428B /* AuthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		795AE48F2E070AB800FF428B /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		795AE4902E070AB800FF428B /* UserTypeSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTypeSelectionView.swift; sourceTree = "<group>"; };
+		795AE4932E070AB800FF428B /* DJRegistrationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJRegistrationViewModel.swift; sourceTree = "<group>"; };
+		795AE4AB2E0716D000FF428B /* DATABASE_SCHEMA.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = DATABASE_SCHEMA.md; sourceTree = "<group>"; };
+		795AE4AD2E0716F000FF428B /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		795AE4B92E07171E00FF428B /* BookingRequestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingRequestView.swift; sourceTree = "<group>"; };
+		795AE4BA2E07171E00FF428B /* DJProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJProfileView.swift; sourceTree = "<group>"; };
+		795AE4BB2E07171E00FF428B /* HostFiltersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostFiltersView.swift; sourceTree = "<group>"; };
+		795AE4BC2E07171E00FF428B /* HostSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostSearchView.swift; sourceTree = "<group>"; };
+		796AAFA62E08893D00C1A24A /* DJProfileTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJProfileTabView.swift; sourceTree = "<group>"; };
+		796AAFA82E0A240A00C1A24A /* host_guest_database_schema.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = host_guest_database_schema.sql; sourceTree = "<group>"; };
+		796AAFAA2E0A242C00C1A24A /* UserModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModels.swift; sourceTree = "<group>"; };
+		796AAFAD2E0A244B00C1A24A /* GuestRegistrationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestRegistrationView.swift; sourceTree = "<group>"; };
+		796AAFB02E0A246500C1A24A /* GuestRegistrationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestRegistrationViewModel.swift; sourceTree = "<group>"; };
+		796AAFB12E0A246500C1A24A /* HostRegistrationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostRegistrationViewModel.swift; sourceTree = "<group>"; };
+		79C2C4BF2E0737AA00C6BBBC /* AILaunchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AILaunchView.swift; sourceTree = "<group>"; };
+		79C2C4C02E0737AA00C6BBBC /* QROWDAIAssistantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QROWDAIAssistantView.swift; sourceTree = "<group>"; };
+		79C2C4C62E0737BD00C6BBBC /* QROWDAIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QROWDAIManager.swift; sourceTree = "<group>"; };
+		79C2C4CA2E07405E00C6BBBC /* StripeConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StripeConfig.swift; sourceTree = "<group>"; };
+		79C2C4CD2E07407900C6BBBC /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		79C2C4CF2E07408100C6BBBC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		79C2C4D12E07408A00C6BBBC /* StripeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StripeManager.swift; sourceTree = "<group>"; };
+		79C2C4D22E07408A00C6BBBC /* setup_database.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = setup_database.sql; sourceTree = "<group>"; };
+		79C2C4D52E07409E00C6BBBC /* HostSearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostSearchViewModel.swift; sourceTree = "<group>"; };
+		79C2C4D62E07409E00C6BBBC /* TrendingEventsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingEventsViewModel.swift; sourceTree = "<group>"; };
+		79C2C4D92E0740B300C6BBBC /* QROWDComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QROWDComponents.swift; sourceTree = "<group>"; };
+		79C2C4DC2E0740C700C6BBBC /* EventDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		79C2C4E52E075CBA00C6BBBC /* DJPROViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJPROViewModel.swift; sourceTree = "<group>"; };
+		79C2C4E92E075CDF00C6BBBC /* DJPROUpgradeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJPROUpgradeView.swift; sourceTree = "<group>"; };
+		79C2C4EB2E075CE900C6BBBC /* DJSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJSettingsView.swift; sourceTree = "<group>"; };
+		79C2C4EF2E0767E600C6BBBC /* complete_database_setup.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = complete_database_setup.sql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +300,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C2C4E02E07415E00C6BBBC /* Stripe in Frameworks */,
+				795AE4AA2E070BE800FF428B /* Storage in Frameworks */,
+				795AE4A82E070BE800FF428B /* PostgREST in Frameworks */,
+				7932D0E42E1F4F1B00108915 /* Inject in Frameworks */,
+				795AE4A62E070BE800FF428B /* Auth in Frameworks */,
+				79C2C4E22E07415E00C6BBBC /* StripePaymentSheet in Frameworks */,
+				795AE4A42E070AE800FF428B /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,9 +327,191 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7932D0522E1B3B7F00108915 /* PackageFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PackageFrameworks;
+			sourceTree = "<group>";
+		};
+		7932D0542E1B3B7F00108915 /* Debug-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				7932D0522E1B3B7F00108915 /* PackageFrameworks */,
+				7932D0532E1B3B7F00108915 /* QROWD(UPDATEDSTART).app */,
+			);
+			path = "Debug-iphoneos";
+			sourceTree = "<group>";
+		};
+		7932D0552E1B3B7F00108915 /* Debug-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Debug-iphoneos";
+			sourceTree = "<group>";
+		};
+		7932D0562E1B3B7F00108915 /* EagerLinkingTBDs */ = {
+			isa = PBXGroup;
+			children = (
+				7932D0552E1B3B7F00108915 /* Debug-iphoneos */,
+			);
+			path = EagerLinkingTBDs;
+			sourceTree = "<group>";
+		};
+		7932D0C62E1B3B7F00108915 /* attachments */ = {
+			isa = PBXGroup;
+			children = (
+				7932D0572E1B3B7F00108915 /* 0ac80628ae82faf35e4425f063d14866 */,
+				7932D0582E1B3B7F00108915 /* 0afc42768a4a69e9c3803484cba26250 */,
+				7932D0592E1B3B7F00108915 /* 0d03ec81bce487bffee4533877f3c517 */,
+				7932D05A2E1B3B7F00108915 /* 0eb479c2bbc9e52f666ad3252d0ccb9d */,
+				7932D05B2E1B3B7F00108915 /* 1b7ac61b8ecc62c8e69b213f182eca6b */,
+				7932D05C2E1B3B7F00108915 /* 1dc46337f8ca3008414e569b7a75e40c */,
+				7932D05D2E1B3B7F00108915 /* 2de6a04cdba79ed13580c47dfd70cc5f */,
+				7932D05E2E1B3B7F00108915 /* 2e7fb41e96de3a0e3b37dc29dfb9a161 */,
+				7932D05F2E1B3B7F00108915 /* 3a63f7caeebd9edb52cc4dab05752b88 */,
+				7932D0602E1B3B7F00108915 /* 3ac2cb41bb43191b67530059179b896f */,
+				7932D0612E1B3B7F00108915 /* 3ccbff72b76019b7d6e4352c132468ab */,
+				7932D0622E1B3B7F00108915 /* 3cd47ad1f09be2182afa50c258ed861a */,
+				7932D0632E1B3B7F00108915 /* 3ddb873d7a7a04caeda2793795f4c81e */,
+				7932D0642E1B3B7F00108915 /* 3f5df14731367c4089a549a4ec48cb91 */,
+				7932D0652E1B3B7F00108915 /* 4b80decef914c3aaadea13ed20003e29 */,
+				7932D0662E1B3B7F00108915 /* 4bed9ffbffe67f583d893e41c206bc1a */,
+				7932D0672E1B3B7F00108915 /* 4d02497f71333dde9e9a84e6c4c9b1f1 */,
+				7932D0682E1B3B7F00108915 /* 4f23d31f7867e28f58a63f28b2c4a320 */,
+				7932D0692E1B3B7F00108915 /* 5aaffced931c24eacccc0d440f2610f0 */,
+				7932D06A2E1B3B7F00108915 /* 6db4376d3c0f94233b58e7d695d05836 */,
+				7932D06B2E1B3B7F00108915 /* 6dea0b2aa219d317733030151f7f41f5 */,
+				7932D06C2E1B3B7F00108915 /* 7b391e160a3138d2fa1d55ade7900350 */,
+				7932D06D2E1B3B7F00108915 /* 7d995b37daed2bbc566e57c18f6b5b88 */,
+				7932D06E2E1B3B7F00108915 /* 7dfe21be5cc1e74ce57009d1c56e2f42 */,
+				7932D06F2E1B3B7F00108915 /* 8bba4233626f64a7ea772bb94a08a1a9 */,
+				7932D0702E1B3B7F00108915 /* 8e2e85ae4dd18d99b8098967caa5c5b4 */,
+				7932D0712E1B3B7F00108915 /* 8ed5721d9fbe577d58f6856c0b424442 */,
+				7932D0722E1B3B7F00108915 /* 8ee5787020c2cb1e53de3485a679f0c3 */,
+				7932D0732E1B3B7F00108915 /* 8f70bc714e86129857c120eed556404f */,
+				7932D0742E1B3B7F00108915 /* 9b5e04bcace9bae9c8cd95ec4a17bdae */,
+				7932D0752E1B3B7F00108915 /* 027d24acd48e4331ca6ea768f9466a9d */,
+				7932D0762E1B3B7F00108915 /* 28fadf82088ab8742feddabce42b7761 */,
+				7932D0772E1B3B7F00108915 /* 37abdd8c6226ba837c228479894dfa29 */,
+				7932D0782E1B3B7F00108915 /* 045dd98611a677c065e61f9692d8bc26 */,
+				7932D0792E1B3B7F00108915 /* 50e44e2eaf465690fb93733ba79b8a63 */,
+				7932D07A2E1B3B7F00108915 /* 51a1a89ffcb8e1a360afed851b6c84e5 */,
+				7932D07B2E1B3B7F00108915 /* 60b79363c610c51ae27567c418df379e */,
+				7932D07C2E1B3B7F00108915 /* 64afe3d070e153f9f5dbeb744dae7168 */,
+				7932D07D2E1B3B7F00108915 /* 66fba8398faeb5bafeabed94df2b1141 */,
+				7932D07E2E1B3B7F00108915 /* 71e4b46db7f00b70c15b30e264fae2af */,
+				7932D07F2E1B3B7F00108915 /* 78eded39ec1c3a459e43e37a9e0f40d1 */,
+				7932D0802E1B3B7F00108915 /* 83a36fdfbaee1fbd0480cd696cda36b7 */,
+				7932D0812E1B3B7F00108915 /* 83c4bd95b7006bf3bafc4172764bcfd8 */,
+				7932D0822E1B3B7F00108915 /* 84a86389cc37653a5e746c26afb8edb4 */,
+				7932D0832E1B3B7F00108915 /* 86a41305427b847441e9926cf4d3af3b */,
+				7932D0842E1B3B7F00108915 /* 92b72f6221188446acd15b89fafee192 */,
+				7932D0852E1B3B7F00108915 /* 97cf46795be30e57b385da0cbc6e0a09 */,
+				7932D0862E1B3B7F00108915 /* 00115ed4ef937fc458fa013081ca2231 */,
+				7932D0872E1B3B7F00108915 /* 205e344368d8eecd276dc5c4abd1dc9f */,
+				7932D0882E1B3B7F00108915 /* 398cf15d886aef41e5e168262f04931e */,
+				7932D0892E1B3B7F00108915 /* 510cde033edcff415bd03cd531ad8cd2 */,
+				7932D08A2E1B3B7F00108915 /* 890f768f7363a2e5899c5672390cfc96 */,
+				7932D08B2E1B3B7F00108915 /* 966e778f2e78c7e5acb20e69f1c73f86 */,
+				7932D08C2E1B3B7F00108915 /* 1724dee435109d3138f9adcf2af98d7e */,
+				7932D08D2E1B3B7F00108915 /* 1854d049f20482597149e37bcd068f26 */,
+				7932D08E2E1B3B7F00108915 /* 3641e08c7d2fe2b14b75a7279f03c649 */,
+				7932D08F2E1B3B7F00108915 /* 21229c34958f3b4e9692166d0bd710b9 */,
+				7932D0902E1B3B7F00108915 /* 29285a53542e1de58759e78842a7255e */,
+				7932D0912E1B3B7F00108915 /* 58387aacf672e8714c807d912f3aa8aa */,
+				7932D0922E1B3B7F00108915 /* 777407cc36ac898304550f65a1381106 */,
+				7932D0932E1B3B7F00108915 /* 9003272c28adbfa2fcc60b8b9183c6d0 */,
+				7932D0942E1B3B7F00108915 /* 82188266f280d82421911b05ff9c45ee */,
+				7932D0952E1B3B7F00108915 /* a0c88492e0bda39e20bf3e9479218acf */,
+				7932D0962E1B3B7F00108915 /* a8c0cadda6fc3174cf100a4fa3de2541 */,
+				7932D0972E1B3B7F00108915 /* a3868d2e6709a02b4c1b13e721d0622a */,
+				7932D0982E1B3B7F00108915 /* a030418b35c649d02a26e36526157377 */,
+				7932D0992E1B3B7F00108915 /* a49252a2f105fe53286e56e68d2dd117 */,
+				7932D09A2E1B3B7F00108915 /* a0759913477d22c1e4270018c22470e5 */,
+				7932D09B2E1B3B7F00108915 /* abcf845d316c8d554ba5395655e154d9 */,
+				7932D09C2E1B3B7F00108915 /* ac8761daf850b72ed6558c560694c04d */,
+				7932D09D2E1B3B7F00108915 /* ac941853be552234bdd8a362772e9df4 */,
+				7932D09E2E1B3B7F00108915 /* ad180d6e976e39ac20f2ebace4960a01 */,
+				7932D09F2E1B3B7F00108915 /* aeee617baf6a416876eceb6a675165d8 */,
+				7932D0A02E1B3B7F00108915 /* af3a60f98df00acc35017d5cec2e325d */,
+				7932D0A12E1B3B7F00108915 /* b5ca659924efd00d2b2dcf2a454e6659 */,
+				7932D0A22E1B3B7F00108915 /* b29dbd22bcf9d8024211e42442cddc3f */,
+				7932D0A32E1B3B7F00108915 /* b534eb1ab5b5697c0f9c54524bfdd91d */,
+				7932D0A42E1B3B7F00108915 /* b5292af2af4b980e29643866ee7597b9 */,
+				7932D0A52E1B3B7F00108915 /* ba0499c23aef0cda2254dc543930c89e */,
+				7932D0A62E1B3B7F00108915 /* bc9ba6192797c36bc5100b6659bcb007 */,
+				7932D0A72E1B3B7F00108915 /* bec97a3418850e3039ff70516fad44b6 */,
+				7932D0A82E1B3B7F00108915 /* c5bc78fb844d62653dddaf2eca8f6bad */,
+				7932D0A92E1B3B7F00108915 /* c7a5f7880ea9211cc7d28f94284c591d */,
+				7932D0AA2E1B3B7F00108915 /* c8f211f3fe5fbe65da08d2ba49bc2339 */,
+				7932D0AB2E1B3B7F00108915 /* c59ee354215ef6480d1c5cf945c6f1e6 */,
+				7932D0AC2E1B3B7F00108915 /* c738feb00c157afc2154e50cedfffe9c */,
+				7932D0AD2E1B3B7F00108915 /* c4396e25c893d8330e53e9da8b51cc24 */,
+				7932D0AE2E1B3B7F00108915 /* c36521d831dc52ab2a259a6c02fc814a */,
+				7932D0AF2E1B3B7F00108915 /* cc92138200749b072bcb9e30f2e1fcc4 */,
+				7932D0B02E1B3B7F00108915 /* d0aeb4d290b5e87a064d6efeebded0d2 */,
+				7932D0B12E1B3B7F00108915 /* d3d3426191106ae8b3f1fa6b2a14d21d */,
+				7932D0B22E1B3B7F00108915 /* d7a6725e23a582614a57335a519e0131 */,
+				7932D0B32E1B3B7F00108915 /* da5227386f306faf40f931260791f50f */,
+				7932D0B42E1B3B7F00108915 /* dafb855ff6fc5563082ba8e8015a1a5f */,
+				7932D0B52E1B3B7F00108915 /* de08ea3c71b377fcdc2717e3119af4a5 */,
+				7932D0B62E1B3B7F00108915 /* df9f259bd07fdc19e089b1ff5dadf347 */,
+				7932D0B72E1B3B7F00108915 /* df18e1eb10c655f6fb6a5ec8dae567f2 */,
+				7932D0B82E1B3B7F00108915 /* e5be38f2c45388204b6f46ae69237101 */,
+				7932D0B92E1B3B7F00108915 /* e496f93f5ddda9329c6bea40a89b2b58 */,
+				7932D0BA2E1B3B7F00108915 /* e651e3d23186a4e1e0812016622d5545 */,
+				7932D0BB2E1B3B7F00108915 /* e311861765b0803cd756e3044914c249 */,
+				7932D0BC2E1B3B7F00108915 /* eaf76bc944eef97d3ebce10c336a0632 */,
+				7932D0BD2E1B3B7F00108915 /* ebf6b4f197101ec79724f4cd77407ab2 */,
+				7932D0BE2E1B3B7F00108915 /* ec29630121eec455fa193befaa967637 */,
+				7932D0BF2E1B3B7F00108915 /* f4a25d7bc509ea17d99c483f1825912c */,
+				7932D0C02E1B3B7F00108915 /* f4c9132240d76e2724478c1cf5a29269 */,
+				7932D0C12E1B3B7F00108915 /* f073e839847d94d29f212fca9aa9b93b */,
+				7932D0C22E1B3B7F00108915 /* f76aae702bb160ec0e234ae117595a8c */,
+				7932D0C32E1B3B7F00108915 /* fd8314defc70a8778956f026c0ddfd19 */,
+				7932D0C42E1B3B7F00108915 /* fe520edb5733d3c89c7d0092022c3147 */,
+				7932D0C52E1B3B7F00108915 /* ffde2b8d290c0202ea8c84ef76ee7cdf */,
+			);
+			path = attachments;
+			sourceTree = "<group>";
+		};
+		7932D0CC2E1B3B7F00108915 /* dcd573cfb3cbf7ef1213867a79e6e96e.xcbuilddata */ = {
+			isa = PBXGroup;
+			children = (
+				7932D0C62E1B3B7F00108915 /* attachments */,
+				7932D0C72E1B3B7F00108915 /* build-request.json */,
+				7932D0C82E1B3B7F00108915 /* description.msgpack */,
+				7932D0C92E1B3B7F00108915 /* manifest.json */,
+				7932D0CA2E1B3B7F00108915 /* target-graph.txt */,
+				7932D0CB2E1B3B7F00108915 /* task-store.msgpack */,
+			);
+			path = dcd573cfb3cbf7ef1213867a79e6e96e.xcbuilddata;
+			sourceTree = "<group>";
+		};
+		7932D0CE2E1B3B7F00108915 /* XCBuildData */ = {
+			isa = PBXGroup;
+			children = (
+				7932D0CC2E1B3B7F00108915 /* dcd573cfb3cbf7ef1213867a79e6e96e.xcbuilddata */,
+				7932D0CD2E1B3B7F00108915 /* build.db */,
+			);
+			path = XCBuildData;
+			sourceTree = "<group>";
+		};
+		7932D0CF2E1B3B7F00108915 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				7932D0542E1B3B7F00108915 /* Debug-iphoneos */,
+				7932D0562E1B3B7F00108915 /* EagerLinkingTBDs */,
+				7932D0CE2E1B3B7F00108915 /* XCBuildData */,
+			);
+			path = build;
+			sourceTree = SOURCE_ROOT;
+		};
 		795AE4472E07079100FF428B = {
 			isa = PBXGroup;
 			children = (
+				7932D0CF2E1B3B7F00108915 /* build */,
 				795AE4522E07079100FF428B /* QROWD(UPDATEDSTART) */,
 				795AE4652E07079300FF428B /* QROWD(UPDATEDSTART)Tests */,
 				795AE46F2E07079300FF428B /* QROWD(UPDATEDSTART)UITests */,
@@ -96,9 +532,28 @@
 		795AE4522E07079100FF428B /* QROWD(UPDATEDSTART) */ = {
 			isa = PBXGroup;
 			children = (
+				7932D0492E1B336A00108915 /* AccessibilityManager.swift */,
+				7932D0462E1B336A00108915 /* DeveloperTools.swift */,
+				7932D0482E1B336A00108915 /* ENHANCEMENTS_SUMMARY.md */,
+				7932D04A2E1B336A00108915 /* ErrorManager.swift */,
+				7932D0472E1B336A00108915 /* ImageCacheManager.swift */,
+				79C2C4CB2E07405E00C6BBBC /* Config */,
+				79C2C4C72E0737BD00C6BBBC /* AIAssistant */,
 				795AE4532E07079100FF428B /* QROWD_UPDATEDSTART_App.swift */,
 				795AE4552E07079100FF428B /* ContentView.swift */,
+				795AE4AB2E0716D000FF428B /* DATABASE_SCHEMA.md */,
 				795AE4572E07079100FF428B /* Item.swift */,
+				79C2C4EF2E0767E600C6BBBC /* complete_database_setup.sql */,
+				796AAFA82E0A240A00C1A24A /* host_guest_database_schema.sql */,
+				79C2C4CD2E07407900C6BBBC /* NotificationManager.swift */,
+				795AE47F2E070AB000FF428B /* SupabaseManager.swift */,
+				795AE4802E070AB000FF428B /* Theme.swift */,
+				79C2C4CF2E07408100C6BBBC /* Podfile */,
+				79C2C4D22E07408A00C6BBBC /* setup_database.sql */,
+				79C2C4D12E07408A00C6BBBC /* StripeManager.swift */,
+				796AAFAB2E0A242C00C1A24A /* Models */,
+				795AE4942E070AB800FF428B /* ViewModels */,
+				795AE4922E070AB800FF428B /* Views */,
 				795AE4592E07079200FF428B /* Assets.xcassets */,
 				795AE45B2E07079200FF428B /* Preview Content */,
 			);
@@ -130,6 +585,154 @@
 			path = "QROWD(UPDATEDSTART)UITests";
 			sourceTree = "<group>";
 		};
+		795AE48B2E070AB800FF428B /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				795AE4842E070AB800FF428B /* DJBasicInfoView.swift */,
+				795AE4832E070AB800FF428B /* DJAvailabilityView.swift */,
+				795AE4852E070AB800FF428B /* DJBudgetView.swift */,
+				795AE4862E070AB800FF428B /* DJEquipmentView.swift */,
+				795AE4872E070AB800FF428B /* DJGenreView.swift */,
+				795AE4882E070AB800FF428B /* DJPromoView.swift */,
+				795AE4892E070AB800FF428B /* DJSocialLinksView.swift */,
+				795AE48A2E070AB800FF428B /* DJStripeView.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		795AE48D2E070AB800FF428B /* DJ */ = {
+			isa = PBXGroup;
+			children = (
+				795AE48B2E070AB800FF428B /* Steps */,
+				795AE48C2E070AB800FF428B /* DJRegistrationWizardView.swift */,
+				79C2C4E92E075CDF00C6BBBC /* DJPROUpgradeView.swift */,
+				79C2C4EB2E075CE900C6BBBC /* DJSettingsView.swift */,
+				796AAFA62E08893D00C1A24A /* DJProfileTabView.swift */,
+				7932D0D42E1F484C00108915 /* DJDashboardView.swift */,
+				7932D0D62E1F485700108915 /* DJBookingRequestsView.swift */,
+			);
+			path = DJ;
+			sourceTree = "<group>";
+		};
+		795AE4912E070AB800FF428B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				795AE48E2E070AB800FF428B /* AuthView.swift */,
+				795AE48F2E070AB800FF428B /* SplashView.swift */,
+				795AE4902E070AB800FF428B /* UserTypeSelectionView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		795AE4922E070AB800FF428B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79C2C4C12E0737AA00C6BBBC /* AIAssistant */,
+				795AE4AE2E0716F000FF428B /* Chat */,
+				79C2C4DA2E0740B300C6BBBC /* Components */,
+				796AAFAE2E0A244B00C1A24A /* Guest */,
+				795AE48D2E070AB800FF428B /* DJ */,
+				795AE4BD2E07171E00FF428B /* Host */,
+				795AE4912E070AB800FF428B /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		795AE4942E070AB800FF428B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				796AAFB02E0A246500C1A24A /* GuestRegistrationViewModel.swift */,
+				796AAFB12E0A246500C1A24A /* HostRegistrationViewModel.swift */,
+				79C2C4E52E075CBA00C6BBBC /* DJPROViewModel.swift */,
+				795AE4932E070AB800FF428B /* DJRegistrationViewModel.swift */,
+				79C2C4D52E07409E00C6BBBC /* HostSearchViewModel.swift */,
+				79C2C4D62E07409E00C6BBBC /* TrendingEventsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		795AE4AE2E0716F000FF428B /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				795AE4AD2E0716F000FF428B /* ChatView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		795AE4BD2E07171E00FF428B /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				7932D0442E184BEA00108915 /* HostRegistrationWizardView.swift */,
+				795AE4B92E07171E00FF428B /* BookingRequestView.swift */,
+				7932D0DF2E1F488C00108915 /* BookingRequestStatusView.swift */,
+				7932D0DE2E1F488C00108915 /* InstantBookingView.swift */,
+				7932D0D92E1F488400108915 /* CancellationPolicyView.swift */,
+				7932D0DA2E1F488400108915 /* RealTimeTrackingView.swift */,
+				795AE4BA2E07171E00FF428B /* DJProfileView.swift */,
+				79C2C4DC2E0740C700C6BBBC /* EventDetailView.swift */,
+				795AE4BB2E07171E00FF428B /* HostFiltersView.swift */,
+				795AE4BC2E07171E00FF428B /* HostSearchView.swift */,
+				7932D0D82E1F488400108915 /* BookingRequestView.swift */,
+			);
+			name = Host;
+			path = "QROWD(UPDATEDSTART)/Views/Host";
+			sourceTree = SOURCE_ROOT;
+		};
+		796AAFAB2E0A242C00C1A24A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7932D0D02E1F47F700108915 /* CancellationPolicyManager.swift */,
+				7932D0D12E1F47F700108915 /* MarketplaceFeatures.swift */,
+				796AAFAA2E0A242C00C1A24A /* UserModels.swift */,
+			);
+			name = Models;
+			path = "QROWD(UPDATEDSTART)/Models";
+			sourceTree = SOURCE_ROOT;
+		};
+		796AAFAE2E0A244B00C1A24A /* Guest */ = {
+			isa = PBXGroup;
+			children = (
+				796AAFAD2E0A244B00C1A24A /* GuestRegistrationView.swift */,
+			);
+			path = Guest;
+			sourceTree = "<group>";
+		};
+		79C2C4C12E0737AA00C6BBBC /* AIAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				79C2C4BF2E0737AA00C6BBBC /* AILaunchView.swift */,
+				79C2C4C02E0737AA00C6BBBC /* QROWDAIAssistantView.swift */,
+			);
+			path = AIAssistant;
+			sourceTree = "<group>";
+		};
+		79C2C4C72E0737BD00C6BBBC /* AIAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				79C2C4C62E0737BD00C6BBBC /* QROWDAIManager.swift */,
+			);
+			path = AIAssistant;
+			sourceTree = "<group>";
+		};
+		79C2C4CB2E07405E00C6BBBC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				79C2C4CA2E07405E00C6BBBC /* StripeConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		79C2C4DA2E0740B300C6BBBC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7932D0422E1842EA00108915 /* AnimationShowcaseView.swift */,
+				7932D0402E1842E400108915 /* QROWDAnimations.swift */,
+				79C2C4D92E0740B300C6BBBC /* QROWDComponents.swift */,
+				7932D0502E1B368D00108915 /* QROWDLogo.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +749,15 @@
 			dependencies = (
 			);
 			name = "QROWD(UPDATEDSTART)";
+			packageProductDependencies = (
+				795AE4A32E070AE800FF428B /* Supabase */,
+				795AE4A52E070BE800FF428B /* Auth */,
+				795AE4A72E070BE800FF428B /* PostgREST */,
+				795AE4A92E070BE800FF428B /* Storage */,
+				79C2C4DF2E07415E00C6BBBC /* Stripe */,
+				79C2C4E12E07415E00C6BBBC /* StripePaymentSheet */,
+				7932D0E32E1F4F1B00108915 /* Inject */,
+			);
 			productName = "QROWD(UPDATEDSTART)";
 			productReference = 795AE4502E07079100FF428B /* QROWD(UPDATEDSTART).app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +830,11 @@
 				Base,
 			);
 			mainGroup = 795AE4472E07079100FF428B;
+			packageReferences = (
+				795AE4A22E070AE800FF428B /* XCRemoteSwiftPackageReference "supabase-swift" */,
+				79C2C4DE2E07415E00C6BBBC /* XCRemoteSwiftPackageReference "stripe-ios" */,
+				7932D0E22E1F4F1A00108915 /* XCRemoteSwiftPackageReference "Inject" */,
+			);
 			productRefGroup = 795AE4512E07079100FF428B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +852,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				795AE45D2E07079200FF428B /* Preview Assets.xcassets in Resources */,
+				795AE4AC2E0716D000FF428B /* DATABASE_SCHEMA.md in Resources */,
+				79C2C4D42E07408A00C6BBBC /* setup_database.sql in Resources */,
+				79C2C4D02E07408100C6BBBC /* Podfile in Resources */,
+				7932D04D2E1B336A00108915 /* ENHANCEMENTS_SUMMARY.md in Resources */,
+				796AAFA92E0A240A00C1A24A /* host_guest_database_schema.sql in Resources */,
+				79C2C4F02E0767E600C6BBBC /* complete_database_setup.sql in Resources */,
 				795AE45A2E07079200FF428B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +883,64 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795AE4C12E07171E00FF428B /* HostSearchView.swift in Sources */,
+				795AE4AF2E0716F000FF428B /* ChatView.swift in Sources */,
+				795AE4BF2E07171E00FF428B /* DJProfileView.swift in Sources */,
+				79C2C4DB2E0740B300C6BBBC /* QROWDComponents.swift in Sources */,
+				79C2C4C32E0737AA00C6BBBC /* AILaunchView.swift in Sources */,
+				796AAFB32E0A246500C1A24A /* HostRegistrationViewModel.swift in Sources */,
+				7932D0412E1842E400108915 /* QROWDAnimations.swift in Sources */,
+				79C2C4CC2E07405E00C6BBBC /* StripeConfig.swift in Sources */,
+				79C2C4E62E075CBB00C6BBBC /* DJPROViewModel.swift in Sources */,
+				7932D0D32E1F47F700108915 /* MarketplaceFeatures.swift in Sources */,
+				7932D0DC2E1F488400108915 /* CancellationPolicyView.swift in Sources */,
 				795AE4562E07079100FF428B /* ContentView.swift in Sources */,
+				7932D0E02E1F488C00108915 /* InstantBookingView.swift in Sources */,
+				7932D0D22E1F47F700108915 /* CancellationPolicyManager.swift in Sources */,
+				79C2C4D82E07409E00C6BBBC /* TrendingEventsViewModel.swift in Sources */,
+				795AE49F2E070AB800FF428B /* SplashView.swift in Sources */,
+				7932D0452E184BEA00108915 /* HostRegistrationWizardView.swift in Sources */,
+				795AE4972E070AB800FF428B /* DJBudgetView.swift in Sources */,
+				7932D0DB2E1F488400108915 /* BookingRequestView.swift in Sources */,
+				795AE4992E070AB800FF428B /* DJGenreView.swift in Sources */,
+				7932D0432E1842EA00108915 /* AnimationShowcaseView.swift in Sources */,
+				795AE49B2E070AB800FF428B /* DJSocialLinksView.swift in Sources */,
+				795AE4A12E070AB800FF428B /* DJRegistrationViewModel.swift in Sources */,
+				7932D04F2E1B336A00108915 /* ErrorManager.swift in Sources */,
+				7932D0D52E1F484C00108915 /* DJDashboardView.swift in Sources */,
+				796AAFAF2E0A244B00C1A24A /* GuestRegistrationView.swift in Sources */,
+				7932D0D72E1F485700108915 /* DJBookingRequestsView.swift in Sources */,
 				795AE4582E07079100FF428B /* Item.swift in Sources */,
+				796AAFA72E08893D00C1A24A /* DJProfileTabView.swift in Sources */,
+				796AAFAC2E0A242C00C1A24A /* UserModels.swift in Sources */,
+				7932D04C2E1B336A00108915 /* ImageCacheManager.swift in Sources */,
+				79C2C4C92E0737BD00C6BBBC /* QROWDAIManager.swift in Sources */,
+				795AE4962E070AB800FF428B /* DJBasicInfoView.swift in Sources */,
+				7932D04B2E1B336A00108915 /* DeveloperTools.swift in Sources */,
+				796AAFB22E0A246500C1A24A /* GuestRegistrationViewModel.swift in Sources */,
+				795AE4822E070AB000FF428B /* Theme.swift in Sources */,
+				79C2C4EA2E075CE200C6BBBC /* DJPROUpgradeView.swift in Sources */,
 				795AE4542E07079100FF428B /* QROWD_UPDATEDSTART_App.swift in Sources */,
+				795AE49A2E070AB800FF428B /* DJPromoView.swift in Sources */,
+				795AE4BE2E07171E00FF428B /* BookingRequestView.swift in Sources */,
+				79C2C4DD2E0740C700C6BBBC /* EventDetailView.swift in Sources */,
+				79C2C4CE2E07407900C6BBBC /* NotificationManager.swift in Sources */,
+				79C2C4C42E0737AA00C6BBBC /* QROWDAIAssistantView.swift in Sources */,
+				7932D04E2E1B336A00108915 /* AccessibilityManager.swift in Sources */,
+				7932D0E12E1F488C00108915 /* BookingRequestStatusView.swift in Sources */,
+				795AE49C2E070AB800FF428B /* DJStripeView.swift in Sources */,
+				79C2C4D32E07408A00C6BBBC /* StripeManager.swift in Sources */,
+				79C2C4D72E07409E00C6BBBC /* HostSearchViewModel.swift in Sources */,
+				795AE4A02E070AB800FF428B /* UserTypeSelectionView.swift in Sources */,
+				795AE4812E070AB000FF428B /* SupabaseManager.swift in Sources */,
+				79C2C4EC2E075CE900C6BBBC /* DJSettingsView.swift in Sources */,
+				795AE49E2E070AB800FF428B /* AuthView.swift in Sources */,
+				795AE4982E070AB800FF428B /* DJEquipmentView.swift in Sources */,
+				7932D0512E1B368D00108915 /* QROWDLogo.swift in Sources */,
+				795AE49D2E070AB800FF428B /* DJRegistrationWizardView.swift in Sources */,
+				795AE4C02E07171E00FF428B /* HostFiltersView.swift in Sources */,
+				7932D0DD2E1F488400108915 /* RealTimeTrackingView.swift in Sources */,
+				795AE4952E070AB800FF428B /* DJAvailabilityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +1270,71 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7932D0E22E1F4F1A00108915 /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.2;
+			};
+		};
+		795AE4A22E070AE800FF428B /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+		79C2C4DE2E07415E00C6BBBC /* XCRemoteSwiftPackageReference "stripe-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.16.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7932D0E32E1F4F1B00108915 /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7932D0E22E1F4F1A00108915 /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+		795AE4A32E070AE800FF428B /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 795AE4A22E070AE800FF428B /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		795AE4A52E070BE800FF428B /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 795AE4A22E070AE800FF428B /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		795AE4A72E070BE800FF428B /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 795AE4A22E070AE800FF428B /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		795AE4A92E070BE800FF428B /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 795AE4A22E070AE800FF428B /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		79C2C4DF2E07415E00C6BBBC /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79C2C4DE2E07415E00C6BBBC /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = Stripe;
+		};
+		79C2C4E12E07415E00C6BBBC /* StripePaymentSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79C2C4DE2E07415E00C6BBBC /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripePaymentSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 795AE4482E07079100FF428B /* Project object */;
 }

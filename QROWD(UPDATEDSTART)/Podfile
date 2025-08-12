@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '15.0'
+
+target 'QROWD(UPDATEDSTART)' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for QROWD(UPDATEDSTART)
+  
+  # Stripe for payments
+  pod 'Stripe'
+  pod 'StripePaymentSheet'
+  
+  # If you need other Stripe modules later:
+  # pod 'StripeConnect'
+  # pod 'StripeIdentity'
+
+  target 'QROWD(UPDATEDSTART)Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'QROWD(UPDATEDSTART)UITests' do
+    # Pods for testing
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+    end
+  end
+end 
